@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:RandomSport"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="Random Sport" Height="450" Width="800">
+        Title="Random Sport" Height="400" Width="900" MinHeight="400" MinWidth="900">
+
     <Grid>
         <ListBox x:Name="MainList">
             <ListBox.ItemTemplate>
@@ -26,11 +27,11 @@
                         <TextBlock Grid.Column="3" FontSize="16" Text="{Binding Path=Measure}" Margin="20,0,0,0"/>
 
                         <StackPanel Grid.Column="4" Orientation="Horizontal">
-                            <CheckBox/>
-                            <CheckBox/>
-                            <CheckBox/>
-                            <CheckBox/>
-                            <CheckBox/>
+                            <local:BigCheckbox/>
+                            <local:BigCheckbox/>
+                            <local:BigCheckbox/>
+                            <local:BigCheckbox/>
+                            <local:BigCheckbox/>
                         </StackPanel>
                     </Grid>
                 </DataTemplate>
