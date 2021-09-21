@@ -1,2 +1,1 @@
-# RandomSport
-Random everyday training program with bodyweight
+База данных для начала из 70 упражнений. Случайно выбирается 8 упражнений на мышцы и 2 - на растяжку. 
